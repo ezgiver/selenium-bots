@@ -1,0 +1,36 @@
+# Internet Speed Twitter Bot
+
+A Python script that checks your current internet speed using Speedtest.net and tweets at your internet service provider if the speeds are below the promised thresholds.
+
+## Features
+
+- Automatically measures download and upload speeds using Speedtest.net
+- Logs into Twitter using your credentials
+- Posts a complaint tweet if your internet speeds are below the promised levels
+- Uses Selenium for browser automation
+
+## Prerequisites
+
+Before running this script, you'll need:
+
+- Python 3.x installed
+- Chrome browser installed
+- Twitter account credentials
+- Environment variables set for your Twitter email and password
+
+## Installation
+
+1. Clone this repository or download the script
+2. Install the required Python packages:
+   pip install selenium
+3. Download ChromeDriver from https://sites.google.com/chromium.org/driver/ and place it in your PATH or in the same directory as the script
+4. Set up environment variables for your Twitter credentials:
+export TWITTER_EMAIL="your_twitter_email@example.com"
+export TWITTER_PASSWORD="your_twitter_password"
+
+## Configuration
+Modify these variables in the script to match your promised internet speeds:
+
+## Usage
+
+python internet_speed_twitter_bot.py
